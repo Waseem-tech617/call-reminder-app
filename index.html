@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL REMINDER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Main Box-->
+    <div class="call-container">
+
+        <!-- Left Buttons -->
+        <div class="btns">
+            <button class="add-btn btn"> <i class="fa-solid fa-plus"></i></button>
+            <button class="arrow-up-btn btn"><i class="fa-solid fa-arrow-up"></i></button>
+            <button class="arrow-down-btn btn "> <i class="fa-solid fa-arrow-down"></i></button>
+        </div>
+
+        <!-- Cards  Div-->
+        <div class="cards">
+        </div>
+
+        <!-- right side colors -->
+        <div class="colors">
+            <div class="color-1"></div>
+            <div class="color-2"></div>
+            <div class="color-3"></div>
+            <div class="color-4"></div>
+        </div>
+    </div>
+
+    <!-- Form for note data-->
+    <div class="Note-form">
+        <h1>New Call</h1>
+        <form>
+            <h4>Image URL</h4>
+            <input required class="image-url a" placeholder="https://Example.jpg">
+            <h4>Full Name</h4>
+            <input required type="text"  class="names a" placeholder="Enter youer name">
+            <h4>Home Town</h4>
+            <input required type="text" class="home-town a" placeholder="Enter home town">
+            <h4>Purpose</h4>
+            <input required type="text" class="purpose a" placeholder="Enter Your Purpose">
+            <h4 class="Catagory">Catagory</h4>
+            <label class="tag-checkbox">
+                <input required type="radio" name="Catagory" value="emergency" class="emergency">
+                <span>Emergency</span>
+            </label>
+            <label class="tag-checkbox">
+                <input required type="radio" name="Catagory" value="urgent" class="urgent">
+                <span>urgent</span>
+            </label>
+            <label class="tag-checkbox">
+                <input required type="radio" name="Catagory" value="no-rush" class="no-rush">
+                <span>No Rush</span>
+            </label>
+            <label class="tag-checkbox">
+                <input required type="radio" name="Catagory" value="important" class="important" />
+                <span>Important</span>
+            </label>
+            <br>
+            <button class="submit-btn">Create Note</button>
+        </form>
+        <button class="close-btn">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
