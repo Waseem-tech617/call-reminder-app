@@ -16,7 +16,7 @@ let closeForm = document.querySelector(".close-btn");
 let arrouwupbtn = document.querySelector(".arrow-up-btn");
 let arrowdoenbtn = document.querySelector(".arrow-down-btn");
 
-// This function for Data save in localstorage .
+// This function Data save in localstorage .
 function savelocalstorage(obj) {
   if (localStorage.getItem("tasks") === null) {
     let oldtasks = [];
