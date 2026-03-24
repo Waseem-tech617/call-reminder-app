@@ -19,7 +19,7 @@ html {
     gap: 15px;
 }
 
-/* left side */
+/* left sides */
 .btns {
     display: flex;
     flex-direction: column;
